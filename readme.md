@@ -16,7 +16,7 @@ After that just include `dist/angular-matchmedia.js` file in your application (b
 
 ### Core method
 
-+ #### check(mediaQueryString)
+#### check(mediaQueryString)
 Method allows you to check any media query right in your controller or service. You should pass just one parameter: any media query. Methods returns `true` or `false` depending on media query result.
 ```js
 app.controller('MainCtrl', function($scope, matchMedia) {
@@ -26,7 +26,7 @@ app.controller('MainCtrl', function($scope, matchMedia) {
 
 ### Helpers
 
-+ #### isPhone
+#### isPhone
 Method allows you to check if your application is viewed on mobile device (according to the following default media query rule: `(max-width: 767px)`).
 ```js
 app.controller('MainCtrl', function($scope, matchMedia) {
@@ -34,7 +34,7 @@ app.controller('MainCtrl', function($scope, matchMedia) {
 });
 ```
 
-+ #### isTablet
+#### isTablet
 Method allows you to check if your application is viewed on tablet (according to the following default media query rule: `(min-width: 768px) and (max-width: 1024px)`).
 ```js
 app.controller('MainCtrl', function($scope, matchMedia) {
@@ -42,7 +42,7 @@ app.controller('MainCtrl', function($scope, matchMedia) {
 });
 ```
 
-+ #### isDesktop
+#### isDesktop
 Method allows you to check if your application is viewed on desktop (according to the following default media query rule: `(min-width: 1025px)`).
 ```js
 app.controller('MainCtrl', function($scope, matchMedia) {
@@ -50,7 +50,7 @@ app.controller('MainCtrl', function($scope, matchMedia) {
 });
 ```
 
-+ #### isPortrait
+#### isPortrait
 Method allows you to check if your application is viewed on device with portrait orientation (according to the following default media query rule: `(orientation: portrait)`).
 ```js
 app.controller('MainCtrl', function($scope, matchMedia) {
@@ -58,7 +58,7 @@ app.controller('MainCtrl', function($scope, matchMedia) {
 });
 ```
 
-+ #### isLandscape
+#### isLandscape
 Method allows you to check if your application is viewed on device with landscape orientation (according to the following default media query rule: `(orientation: landscape)`).
 ```js
 app.controller('MainCtrl', function($scope, matchMedia) {
@@ -66,7 +66,7 @@ app.controller('MainCtrl', function($scope, matchMedia) {
 });
 ```
 
-+ #### isRetina
+#### isRetina
 Method allows you to check if your application is viewed on retina device (according to the following default media query rule: `(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)`).
 ```js
 app.controller('MainCtrl', function($scope, matchMedia) {

@@ -1,0 +1,32 @@
+{
+  "name": "angular-matchmedia",
+  "version": "1.0.0",
+  "description": "Angular-matchmedia service is a set of bindings and helper functions for the browser matchMedia api.",
+  "keywords": [
+    "angular",
+    "media",
+    "query",
+    "match",
+    "media",
+    "matchmedia",
+    "service"
+  ],
+  "author": {
+    "name": "Sergey Lysenko",
+    "email": "soulwish.ls@gmail.com",
+    "url": "soulwish.info"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soul-wish/angular-matchmedia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/soul-wish/angular-matchmedia/issues"
+  },
+  "homepage": "https://github.com/soul-wish/angular-matchmedia",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^1.5.2"
+  }
+}
